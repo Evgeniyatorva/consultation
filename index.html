@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Консалтинг</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
@@ -18,35 +19,40 @@
 			<div class="container">
 				<div class="row">
 					<div class="header__menu">
-						<nav class="menu">
-							<ul>
-								<li><a href="about-company.html">О компании</a></li>
-								<li><a href="#">Цены</a></li>
-								<li><a href="#">Услуги</a></li>
-								<li><a href="#">Отзывы</a></li>
-								<li><a href="#">Клиенты и партнеры</a></li>
-								<li><a href="#">Акции</a></li>
-								<li><a href="#">Новости и статьи</a></li>
-								<li><a href="#">Контакты</a></li>
-							</ul>
-						</nav>
+						<div class="col-xs-12">
+							<button class="mobile-menu"></button>					
+						</div>
+						<div class="col-xs-12">
+							<nav class="menu">
+								<ul>
+									<li><a href="about-company.html">О компании</a></li>
+									<li><a href="#">Цены</a></li>
+									<li><a href="#">Услуги</a></li>
+									<li><a href="#">Отзывы</a></li>
+									<li><a href="#">Клиенты и партнеры</a></li>
+									<li><a href="#">Акции</a></li>
+									<li><a href="#">Новости и статьи</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="header__logo">
-						<div class="col-lg-5">
-							<div class="logo">
+						<div class="col-sm-5 col-xs-12 ">
+							<a href="index.html" class="logo">
 								<h1>Правовые решения</h1>
 								<p>Консалтинговая компания</p>
-							</div>							
+							</a>							
 						</div>
 					</div>
 					<div class="header__contact">
-						<div class="col-lg-7">
+						<div class="col-sm-7 col-xs-12">
 							<div class="contact">
-								<p class="contact__time">9:00 - 18:00<br>Пн - Пт</p>
-								<p class="contact__address">г. Минск, ул. Захарова<br> д.50В офис 5Н</p>
-								<p class="contact__phone">+375 25 <span>105-50-50</span><br>+375 25 <span>799-27-59</span></p>
+								<a href="#" class="contact__time">9:00 - 18:00<br>Пн - Пт</a>
+								<a href="#" class="contact__address">г. Минск, ул. Тимирязева<br> д.70 офис 5Н</a>
+								<a href="#" class="contact__phone">+375 25 <span>105-50-50</span><br>+375 25 <span>799-27-59</span></a>
 								<a href="#" class="contact__action">Заказать звонок</a>
 							</div>							
 						</div>
@@ -56,7 +62,7 @@
 			<div class="header__menu-services">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-xs-12">
 							<nav class="menu-services">
 								<ul>
 									<li><a href="#">Юридические услуги</a></li>
@@ -72,7 +78,7 @@
 			</div>				
 		</header>
 		<section class="slider">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
 					<div class="slider__content">
 						<div class="content-text">
@@ -97,7 +103,7 @@
 		<section class="advantages">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-offset-0 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
 						<div class="advantages__left">
 							<h3>Быстро, профессионально и качественно<br>решаем поставленные Вами задачи</h3>
 							<p>Организация бизнеса «под ключ»</p>
@@ -107,12 +113,12 @@
 							<p>Подготовка и аудит кадровых документов</p>
 						</div>						
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-3 col-sm-12 col-xs-10 col-xs-offset-2">
 						<div class="advantages__right">
-							<p>Оказываем полный спектр услуг для Вашего бизнеса</p>
-							<p>Решение сложных задач в сжатые сроки</p>
-							<p>Многоступенчатая проверка качества услуг</p>
-							<p>Вам понравятся наши ценовые предложения</p>
+							<p class="col-xs-4">Оказываем полный спектр услуг для Вашего бизнеса</p>
+							<p class="col-xs-4">Решение сложных задач в сжатые сроки</p>
+							<p class="col-xs-4">Многоступенчатая проверка качества услуг</p>
+							<p class="col-xs-4">Вам понравятся наши ценовые предложения</p>
 						</div>						
 					</div>
 				</div>
@@ -121,13 +127,13 @@
 		<section class="popular-servises">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-xs-12">
 						<div class="section__title_line">
 							<h2>Популярные услуги</h2>
 						</div>						
 					</div>
 					<div class="popular-servises__items">
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6 col-xs-12">
 							<div class="servise servise-bg_1">
 								<h3 class="servise__title">Регистрация ООО</h3>
 								<p class="servise__text">Открытие Вашего бизнеса в кратчайшие сроки<br> и на выгодных условиях</p>
@@ -135,7 +141,7 @@
 								<a class="servise__more" href="registration-ooo.html">Подробнее</a>
 							</div>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6 col-xs-12">
 							<div class="servise servise-bg_2">
 								<h3 class="servise__title">Ликвидация фирмы</h3>
 								<p class="servise__text">Множество способов закрыть Вашу компанию<br> с минимальными вложениями!</p>
@@ -143,7 +149,7 @@
 								<a class="servise__more" href="registration-ooo.html">Подробнее</a>
 							</div>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6 col-xs-12">
 							<div class="servise servise-bg_3">
 								<h3 class="servise__title">Бугалтерское сопровождение</h3>
 								<p class="servise__text">Оказывают специалисты с большим<br> опытом в различных отраслях бизнеса</p>
@@ -151,7 +157,7 @@
 								<a class="servise__more" href="registration-ooo.html">Подробнее</a>
 							</div>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6 col-xs-12">
 							<div class="servise servise-bg_4">
 								<h3 class="servise__title">Регистрация изменений</h3>
 								<p class="servise__text">Быстрое внесение любых изменений<br> сроки от 5 дней</p>
@@ -159,7 +165,7 @@
 								<a class="servise__more" href="registration-ooo.html">Подробнее</a>
 							</div>
 						</div>
-						<div class="col-lg-4">			
+						<div class="col-lg-4 col-md-6 col-xs-12">			
 							<div class="servise servise-bg_5">
 								<h3 class="servise__title">Реорганизация фирмы</h3>
 								<p class="servise__text">Проведение любой формы реорганизации<br> в соответствии с новым законодательством</p>
@@ -167,7 +173,7 @@
 								<a class="servise__more" href="registration-ooo.html">Подробнее</a>
 							</div>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6 col-xs-12">
 							<div class="servise servise-bg_6">
 								<h3 class="servise__title">Нулевая отчетность</h3>
 								<p class="servise__text">Сдача отчетности Вашей компании<br> точно в срок!</p>
@@ -189,14 +195,14 @@
 						</div>						
 					</div>
 					<div class="company__text">
-						<div class="col-lg-6">
-							<p>Компания с 2007 года оказывает широкий комплекс услуг в области<br> 
-							юридического и бухгалтерского сопровождения компаний различных форм<br> 
-							собственности. Основная специализация компании - бухгалтерская и правовая<br> поддержка бизнеса, регистрация фирм под ключ и ликвидация предприятий.</p>							
+						<div class="col-lg-6 col-md-12">
+							<p>Компания с 2007 года оказывает широкий комплекс услуг в области
+							юридического и бухгалтерского сопровождения компаний различных форм 
+							собственности. Основная специализация компании - бухгалтерская и правовая поддержка бизнеса, регистрация фирм под ключ и ликвидация предприятий.</p>							
 						</div>
-						<div class="col-lg-6">
-							<p>Выбор наиболее подходящей формы собственности необходимо продумать<br>          
-							хозяйственную политику, бухгалтерское и юридическое сопровождение.<br> Если доверить все эти операции профессионалам уже на начальном этапе, можно<br> избежать дальнейших трудностей и наслаждаться ведением своего бизнеса.</p>
+						<div class="col-lg-6 col-md-12">
+							<p>Выбор наиболее подходящей формы собственности необходимо продумать         
+							хозяйственную политику, бухгалтерское и юридическое сопровождение. Если доверить все эти операции профессионалам уже на начальном этапе, можно избежать дальнейших трудностей и наслаждаться ведением своего бизнеса.</p>
 						</div>
 					</div>
 				</div>
@@ -206,8 +212,10 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="action__left col-lg-6">
-						<p>Запишитесь на бесплатную консультацию к нашим специалистам<br><span>Мы будем рады вам помочь!</span></p>
-						<a href="#" class="btn">Оставить заявку</a>
+						<div class="action__wrap">
+							<p>Запишитесь на бесплатную консультацию к нашим специалистам<br><span>Мы будем рады вам помочь!</span></p>
+							<a href="#" class="btn">Оставить заявку</a>							
+						</div>
 					</div>						
 					<div class="action__right col-lg-6">
 						<h3>Работа с нами - оптимальное решение для вашего<br> бизнеса</h3>
@@ -221,15 +229,15 @@
 		<section class="trust">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-xs-12">
 						<div class="section__title_line">
 							<h2>Нам доверяют</h2>
 						</div>						
 					</div>
-					<div class="col-lg-12">
+					<div class="col-xs-12">
 						<div class="trust__slider">
 							<p>Наши клиенты и партнеры довольны оказании квалифицированной юридической<br>помощи, мы выстраиваем долгосрочные отношения</p>
-							<div class="slider" id="slider">
+							<div class="slider-company" id="slider">
 								<div class="slide-wrap">
 									<img src="img/trust__slider/logo (1).png" alt="star_media">
 								</div>
@@ -275,16 +283,16 @@
 		<section class="address">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="address_left">
+					<div class="address_left col-lg-5 col-xs-12">
 						<div class="address__text">
-							<p>Приезжайте:<br><span>г. Минск, ул. Захарова д.50В, офис 5Н</span></p>
-							<p>Звоните:<br><span>+375(29)105-50-50 +375(25)799-27-59</span></p>
-							<p>Пишите:<br><span>info@legals.com</span></p>
+							<p>Приезжайте:<br><a href="">г. Минск, ул. Тимирязева д.70, офис 5Н</span></a>
+							<p>Звоните:<br><a href="">+375(29)105-50-50 +375(25)799-27-59</span></a>
+							<p>Пишите:<br><a href="">info@legals.com</span></a>
 						</div>
 					</div>
-					<div class="address_right">
+					<div class="address_right col-lg-7 col-xs-12">
 						<div class="map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9290635.710903395!2d40.297852!3d55.35413500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1507307526625" width="100%" height="344" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.4470336678237!2d27.51073121620707!3d53.92380148010406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc56ec636c251%3A0x40448ef5212a99fa!2z0YPQu9C40YbQsCDQotC40LzQuNGA0Y_Qt9C10LLQsCA3MCwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sru!4v1507517528551" width="100%" height="344" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
@@ -295,15 +303,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="footer__logo">
-					<div class="col-lg-4">
-						<div class="logo">
+					<div class="col-sm-4 col-xs-12">
+						<a href="index.html" class="logo">
 							<h1>Правовые решения</h1>
 							<p>Консалтинговая компания</p>
-						</div>						
+						</a>						
 					</div>
 				</div>
 				<div class="footer__menu">
-					<div class="col-lg-8">
+					<div class="col-xs-8">
 						<nav class="menu">
 							<ul>
 								<li><a href="#">О компании</a></li>
